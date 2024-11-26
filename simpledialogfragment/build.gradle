@@ -31,8 +31,6 @@ dependencies {
 // maven, bintray
 
 ext {
-    bintrayRepo = 'simpledialogfragments'
-    bintrayName = 'SimpleDialogFragment'
 
     publishedGroupId = 'com.github.eltos'
     libraryName = 'SimpleDialogFragment'
@@ -57,4 +55,3 @@ ext {
 }
 
 apply from: 'installv1.gradle'
-apply from: 'bintrayv1.gradle'
